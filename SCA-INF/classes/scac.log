@@ -1,29 +1,29 @@
-2018-10-26 11:20:50.568/1.820 Oracle Coherence 12.2.1.3.0 <Info> (thread=main, member=n/a): Loaded operational configuration from "jar:file:/C:/Oracle/Middleware/Oracle_Home/coherence/lib/coherence.jar!/tangosol-coherence.xml"
-2018-10-26 11:20:50.604/1.856 Oracle Coherence 12.2.1.3.0 <Info> (thread=main, member=n/a): Loaded operational overrides from "jar:file:/C:/Oracle/Middleware/Oracle_Home/coherence/lib/coherence.jar!/tangosol-coherence-override-dev.xml"
-2018-10-26 11:20:50.606/1.858 Oracle Coherence 12.2.1.3.0 <D5> (thread=main, member=n/a): Optional configuration override "/tangosol-coherence-override.xml" is not specified
-2018-10-26 11:20:50.608/1.861 Oracle Coherence 12.2.1.3.0 <D5> (thread=main, member=n/a): Optional configuration override "cache-factory-config.xml" is not specified
-2018-10-26 11:20:50.610/1.862 Oracle Coherence 12.2.1.3.0 <D5> (thread=main, member=n/a): Optional configuration override "cache-factory-builder-config.xml" is not specified
-2018-10-26 11:20:50.611/1.863 Oracle Coherence 12.2.1.3.0 <D5> (thread=main, member=n/a): Optional configuration override "/custom-mbeans.xml" is not specified
+2018-10-26 13:52:49.363/1.581 Oracle Coherence 12.2.1.3.0 <Info> (thread=main, member=n/a): Loaded operational configuration from "jar:file:/C:/Oracle/Middleware/Oracle_Home/coherence/lib/coherence.jar!/tangosol-coherence.xml"
+2018-10-26 13:52:49.402/1.620 Oracle Coherence 12.2.1.3.0 <Info> (thread=main, member=n/a): Loaded operational overrides from "jar:file:/C:/Oracle/Middleware/Oracle_Home/coherence/lib/coherence.jar!/tangosol-coherence-override-dev.xml"
+2018-10-26 13:52:49.404/1.622 Oracle Coherence 12.2.1.3.0 <D5> (thread=main, member=n/a): Optional configuration override "/tangosol-coherence-override.xml" is not specified
+2018-10-26 13:52:49.407/1.624 Oracle Coherence 12.2.1.3.0 <D5> (thread=main, member=n/a): Optional configuration override "cache-factory-config.xml" is not specified
+2018-10-26 13:52:49.408/1.626 Oracle Coherence 12.2.1.3.0 <D5> (thread=main, member=n/a): Optional configuration override "cache-factory-builder-config.xml" is not specified
+2018-10-26 13:52:49.410/1.628 Oracle Coherence 12.2.1.3.0 <D5> (thread=main, member=n/a): Optional configuration override "/custom-mbeans.xml" is not specified
 
 Oracle Coherence Version 12.2.1.3.0 Build 68243
  Grid Edition: Development mode
 Copyright (c) 2000, 2017, Oracle and/or its affiliates. All rights reserved.
 
-2018-10-26 11:20:51.017/2.269 Oracle Coherence GE 12.2.1.3.0 <Info> (thread=main, member=n/a): Created cache factory com.tangosol.net.ExtensibleConfigurableCacheFactory
-2018-10-26 11:20:51.133/2.384 Oracle Coherence GE 12.2.1.3.0 <Info> (thread=main, member=n/a): The cluster name has not been configured, a value of "bozgur's cluster" has been automatically generated
-Oct 26, 2018 11:20:51 AM oracle.soa.scac.ValidateComposite loadWSDLs
+2018-10-26 13:52:49.805/2.022 Oracle Coherence GE 12.2.1.3.0 <Info> (thread=main, member=n/a): Created cache factory com.tangosol.net.ExtensibleConfigurableCacheFactory
+2018-10-26 13:52:49.922/2.140 Oracle Coherence GE 12.2.1.3.0 <Info> (thread=main, member=n/a): The cluster name has not been configured, a value of "bozgur's cluster" has been automatically generated
+Oct 26, 2018 1:52:50 PM oracle.soa.scac.ValidateComposite loadWSDLs
 WARNING: Validating WSDLs from WSDLManager....  with option UseSoaInfraMds:false
-Oct 26, 2018 11:20:51 AM oracle.fabric.common.wsdl.SchemaManager isIncrementalBuildSupported
+Oct 26, 2018 1:52:50 PM oracle.fabric.common.wsdl.SchemaManager isIncrementalBuildSupported
 INFO: XMLSchema incremental build enabled.
-Oct 26, 2018 11:20:51 AM com.collaxa.cube.CubeLogger info
+Oct 26, 2018 1:52:50 PM com.collaxa.cube.CubeLogger info
 INFO: validating "BPELProcess1.bpel" ...
-Oct 26, 2018 11:20:52 AM com.collaxa.cube.CubeLogger info
-INFO: Composed "BPELProcess1" in 148.8 milliseconds [nodes 6=0+6, 40.3 nodes/sec]
-Oct 26, 2018 11:20:53 AM com.collaxa.cube.CubeLogger info
-INFO: Compiled "BPELProcess1" in 1.309 seconds
-Oct 26, 2018 11:20:53 AM com.collaxa.cube.CubeLogger info
+Oct 26, 2018 1:52:51 PM com.collaxa.cube.CubeLogger info
+INFO: Composed "BPELProcess1" in 107.4 milliseconds [nodes 6=0+6, 55.9 nodes/sec]
+Oct 26, 2018 1:52:52 PM com.collaxa.cube.CubeLogger info
+INFO: Compiled "BPELProcess1" in 1.270 seconds
+Oct 26, 2018 1:52:52 PM com.collaxa.cube.CubeLogger info
 INFO: Gathered 5 files in 0.5 milliseconds
-Oct 26, 2018 11:20:53 AM com.collaxa.cube.CubeLogger info
-INFO: Packaged "BPELProcess1" in 11.9 milliseconds
+Oct 26, 2018 1:52:52 PM com.collaxa.cube.CubeLogger info
+INFO: Packaged "BPELProcess1" in 12.0 milliseconds
 Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=32m; support was removed in 8.0
 Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0

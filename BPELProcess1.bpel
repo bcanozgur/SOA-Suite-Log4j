@@ -73,11 +73,11 @@
                  String sLog4jFile = "C:\\Oracle\\prop_file\\log4j.properties"; 
                  PropertyConfigurator.configure(sLog4jFile); 
                  Logger logger = Logger.getLogger("Log4j_BPEL"); 
-                 logger.info(">>>> This is from Java Embedding: "); 
+                 logger.info("LOG4J LOGGER STARTED"); 
                  XMLElement input = (XMLElement) getVariableData("inputVariable", "payload", "/client:process/client:input"); 
                  addAuditTrailEntry("input is: " + input.getTextContent()); 
                  logger.info("Input Value :" + input.getTextContent()); 
-                 logger.warn("hi"); 
+                 logger.warn("LOG4J LOGGER ENDED"); 
                  logger.debug("Test Application"); 
                 } catch (Exception e) { 
                  e.printStackTrace(); 
