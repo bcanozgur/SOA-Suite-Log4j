@@ -1,5 +1,1 @@
-log4j, yada benzerı bırsey, logger ıcın
-
-db adaptor yerıne baska bırsey, select ıcın daha kolay bırsey
-
 
